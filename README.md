@@ -1,4 +1,4 @@
-# Northline contractor website template
+# Demo contractor website template
 
 A simple, responsive contractor website template inspired by the content flow of MD Remodeling. It includes a hero, about section, three core services, and direct contact information.
 
