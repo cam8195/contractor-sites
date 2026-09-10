@@ -18,4 +18,6 @@ Then visit `http://localhost:8080`.
 - Swap the Unsplash image URLs for your own completed-project photography.
 - Update the palette at the top of `styles.css`.
 
-All business names and contact details are placeholders.
+## Demo disclaimer
+
+This is a demonstration website for a fictional company. The business name, company history, service area, phone number, and email address are placeholders and do not represent a real contractor. The email uses the reserved `.example` domain, and the phone number is within the North American `555-0100`–`555-0199` range reserved for fictional use.
