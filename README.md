@@ -1,6 +1,6 @@
-# Stone & Beam contractor website template
+# Northline contractor website template
 
-A responsive, single-page contractor and remodeling website template inspired by the content flow of MD Remodeling, with an original visual identity and layout.
+A simple, responsive contractor website template inspired by the content flow of MD Remodeling. It includes a hero, about section, three core services, and direct contact information.
 
 ## Preview
 
@@ -16,7 +16,6 @@ Then visit `http://localhost:8080`.
 
 - Replace the company name, service area, phone number, and email in `index.html`.
 - Swap the Unsplash image URLs for your own completed-project photography.
-- Connect the form handler in `script.js` to Formspree, Basin, Netlify Forms, or your own backend.
 - Update the palette at the top of `styles.css`.
 
-All business names, metrics, testimonials, and contact details are placeholders.
+All business names and contact details are placeholders.

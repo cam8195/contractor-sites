@@ -1,80 +1,38 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Stone & Beam is a premium remodeling and residential construction template." />
-    <title>Stone & Beam | Thoughtful Remodeling</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header" id="top">
-      <a class="brand" href="#top" aria-label="Stone and Beam home">
-        <span class="brand-mark">S<span>+</span>B</span>
-        <span class="brand-name">Stone & Beam<small>Renovation Co.</small></span>
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
-      <nav id="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#services">Services</a><a href="#work">Our work</a><a href="#process">Process</a>
-        <a class="nav-cta" href="#contact">Start a project <span>↗</span></a>
-      </nav>
-    </header>
-
-    <main id="main">
-      <section class="hero">
-        <div class="hero-shade"></div>
-        <div class="hero-content reveal">
-          <p class="eyebrow light">Design-minded remodeling · Est. 2010</p>
-          <h1>Old spaces.<br /><em>New stories.</em></h1>
-          <p class="hero-copy">We plan and build enduring home renovations with a clear process, an exacting eye, and respect for the way you live.</p>
-          <div class="hero-actions"><a class="button button-light" href="#contact">Request a consultation <span>↗</span></a><a class="text-link light" href="#work">Explore our work <span>↓</span></a></div>
-        </div>
-        <div class="hero-foot"><span>Serving North Shore & Chicagoland</span><span>Licensed · Bonded · Insured</span></div>
-      </section>
-
-      <section class="intro section" id="about">
-        <div><p class="eyebrow">Built around you</p><h2>A better home starts with a better building experience.</h2></div>
-        <div class="intro-copy"><p>Renovation is personal. That’s why we pair careful craftsmanship with honest timelines, proactive communication, and a team that treats your home like their own.</p><p>From first sketch to final walkthrough, one dedicated crew keeps every detail moving in the right direction.</p><a class="text-link" href="#process">How we work <span>→</span></a></div>
-      </section>
-
-      <section class="services section" id="services">
-        <div class="section-heading"><div><p class="eyebrow">What we do</p><h2>Spaces made<br />to live beautifully.</h2></div><p>Full-service expertise for the rooms you use most—and the homes you’re ready to reinvent.</p></div>
-        <div class="service-grid">
-          <article class="service-card large reveal"><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1600&q=85" alt="Warm modern kitchen with wood cabinetry" /><div><span>01</span><h3>Kitchens</h3><p>Purposeful layouts, custom details, and hardworking finishes.</p></div></article>
-          <article class="service-card reveal"><img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1200&q=85" alt="Bright contemporary bathroom" /><div><span>02</span><h3>Bathrooms</h3><p>Restorative spaces shaped around daily rituals.</p></div></article>
-          <article class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1200&q=85" alt="Modern open-plan home interior" /><div><span>03</span><h3>Whole homes</h3><p>A cohesive vision, carried through every room.</p></div></article>
-        </div>
-      </section>
-
-      <section class="stats" aria-label="Company highlights"><div><strong>15+</strong><span>Years building</span></div><div><strong>240</strong><span>Homes transformed</span></div><div><strong>4.9</strong><span>Average client rating</span></div><div><strong>1</strong><span>Dedicated team</span></div></section>
-
-      <section class="work section" id="work">
-        <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2>Made with intention.</h2></div><a class="text-link" href="#contact">Plan something great <span>→</span></a></div>
-        <div class="project-grid">
-          <article class="project project-wide reveal"><div class="project-img"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85" alt="Modern lake house exterior" /></div><div class="project-meta"><h3>Ravine House</h3><p>Whole-home renovation · Winnetka</p><span>2025</span></div></article>
-          <article class="project reveal"><div class="project-img"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=85" alt="Minimal warm living room" /></div><div class="project-meta"><h3>Oak Street</h3><p>Kitchen + living · Evanston</p><span>2024</span></div></article>
-          <article class="project reveal"><div class="project-img"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85" alt="Elegant dining and living area" /></div><div class="project-meta"><h3>Elm House</h3><p>Full interior · Wilmette</p><span>2024</span></div></article>
-        </div>
-      </section>
-
-      <section class="process section" id="process">
-        <div class="process-lead"><p class="eyebrow light">Our process</p><h2>Clear from day one.</h2><p>No mystery schedules or missed calls. Our four-part process keeps decisions simple, work visible, and your project moving.</p></div>
-        <ol class="process-list"><li><span>01</span><div><h3>Listen</h3><p>We learn how you live, what isn’t working, and what success looks like.</p></div></li><li><span>02</span><div><h3>Plan</h3><p>We align scope, selections, budget, and schedule before work begins.</p></div></li><li><span>03</span><div><h3>Build</h3><p>Your dedicated lead coordinates each trade and shares steady updates.</p></div></li><li><span>04</span><div><h3>Welcome home</h3><p>We finish the details, walk the space together, and stand behind the work.</p></div></li></ol>
-      </section>
-
-      <section class="testimonial section"><p class="quote-mark">“</p><blockquote>They took time to understand how our family actually uses the house. The finished space feels like us—only better than we imagined.</blockquote><p class="attribution">— Claire & Daniel, Highland Park</p></section>
-
-      <section class="contact section" id="contact">
-        <div class="contact-copy"><p class="eyebrow">Start a conversation</p><h2>What can we<br />build together?</h2><p>Tell us a little about your home and we’ll be in touch within two business days.</p><div class="contact-details"><a href="tel:+18475550148">(847) 555-0148</a><a href="mailto:hello@stoneandbeam.co">hello@stoneandbeam.co</a></div></div>
-        <form id="contact-form"><div class="form-row"><label>First name<input name="firstName" autocomplete="given-name" required /></label><label>Last name<input name="lastName" autocomplete="family-name" required /></label></div><label>Email address<input type="email" name="email" autocomplete="email" required /></label><label>Project type<select name="projectType" required><option value="">Select one</option><option>Kitchen remodel</option><option>Bathroom remodel</option><option>Whole-home renovation</option><option>Custom build</option><option>Other</option></select></label><label>Tell us about your project<textarea name="message" rows="4" placeholder="A few details, your location, and ideal timing..."></textarea></label><button class="button button-dark" type="submit">Send project details <span>↗</span></button><p class="form-note" aria-live="polite"></p></form>
-      </section>
-    </main>
-
-    <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">S<span>+</span>B</span><span class="brand-name">Stone & Beam<small>Renovation Co.</small></span></a><div><p>Thoughtful remodeling<br />for the North Shore.</p></div><div class="footer-links"><a href="#services">Services</a><a href="#work">Our work</a><a href="#contact">Contact</a><a href="#">Instagram</a></div><div class="footer-bottom"><span>© <span id="year"></span> Stone & Beam Renovation Co.</span><span>Template site — replace with your business details.</span></div></footer>
-  </body>
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Northline Remodeling provides dependable residential remodeling and custom construction.">
+  <title>Northline Remodeling</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header id="home">
+    <a class="logo" href="#home"><strong>NORTHLINE</strong><span>REMODELING SERVICES</span></a>
+    <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main>
+    <section class="hero"><div class="hero-content"><p>WELCOME TO</p><h1>NORTHLINE<br>REMODELING</h1><span>At Your Service</span><a class="button" href="#contact">Start Now</a></div></section>
+    <section class="about section" id="about">
+      <div class="about-copy"><p class="label">ABOUT US</p><h2>Dependable work.<br>Thoughtful results.</h2><p>Since 2012, Northline Remodeling has helped homeowners improve the spaces they use every day. From focused room updates to complete renovations, our experienced team brings careful planning, quality craftsmanship, and straightforward communication to every project.</p><a class="button dark" href="#contact">Get in Touch</a></div>
+      <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=85" alt="Freshly remodeled modern home interior">
+    </section>
+    <section class="services section" id="services">
+      <p class="label">OUR SERVICES</p><h2>Quality Work, Fair Rates</h2>
+      <div class="service-grid">
+        <article><img src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1000&q=85" alt="Remodeled kitchen"><div><h3>REMODELING</h3><p>It’s all in the details</p></div></article>
+        <article><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=85" alt="Construction plans and tools"><div><h3>CONSTRUCTION MANAGEMENT</h3><p>Organized around your project</p></div></article>
+        <article><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=85" alt="Custom-built modern home"><div><h3>CUSTOM BUILDS</h3><p>Efficient. Reliable. Exceptional.</p></div></article>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div><p class="label">CONTACT</p><h2>Let’s talk about<br>your project.</h2></div>
+      <div class="contact-copy"><p>Have a project in mind? Get in touch and let our team help you take the next step.</p><a href="mailto:hello@northlineremodeling.com">hello@northlineremodeling.com</a><a href="tel:+18475550192">(847) 555-0192</a><p class="area">Serving Chicago’s North Shore and surrounding communities.</p></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Northline Remodeling LLC</span><span>Licensed · Bonded · Insured</span></footer>
+</body>
 </html>
